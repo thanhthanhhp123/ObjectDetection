@@ -2,7 +2,7 @@ from utils.augmentation import Compose, ConvertFromInts, ToAbsoluteCoords, \
     PhotometricDistort, Expand, RandomSampleCrop, \
     ToPercentCoords, Resize, SubtractMeans, RandomMirror
 from lib import *
-from extract_infrom_annotation import Anno_xml
+from extract_inform_annotation import Anno_xml
 from make_datapath import make_data_path_list
 class DataTransform():
     def __init__(self, input_size, color_mean):
